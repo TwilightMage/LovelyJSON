@@ -1,0 +1,27 @@
+{
+  "FileVersion" : 3,
+
+  "FriendlyName" : "Lovely JSON",
+  "Version" : 1,
+  "VersionName" : "1.0-r1",
+  "CreatedBy" : "Purple Draco",
+  "CreatedByURL" : "https://github.com/TwilightMage",
+  "EngineVersion" : "5.2.0",
+  "Description" : "Working with JSON in blueprints never was so easy!",
+  "Category" : "Blueprints",
+  "DocsURL": "",
+  "MarketplaceURL" : "",
+  "CanContainContent": true,
+  "Modules" :
+  [
+    {
+      "Name" : "LovelyJson",
+      "Type" : "Runtime"
+    },
+    {
+      "Name": "LovelyJsonDeveloper",
+      "Type": "DeveloperTool",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ]
+}
